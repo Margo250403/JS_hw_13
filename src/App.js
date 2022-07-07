@@ -1,8 +1,6 @@
 /** @jsxImportSource @emotion/react */
 import { css } from '@emotion/react';
-import notes from "./notes.json";
-import NoteList from "./components/NoteList";
-
+import Blog from './components/Blog';
 
 function App() {
   return (
@@ -11,7 +9,7 @@ function App() {
       max-width: 1100px;
       margin: auto;
     `}>
-      <NoteList notes={notes} />
+      <Blog />
     </div>
   );
 
